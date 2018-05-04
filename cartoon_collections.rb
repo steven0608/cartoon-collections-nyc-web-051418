@@ -25,4 +25,3 @@ cheese_types.each do |x|
 x if cheese_types.include?(x)
 end
 end
-
