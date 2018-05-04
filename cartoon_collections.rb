@@ -20,11 +20,9 @@ end
 def find_the_cheese(cheddar_cheese)# code an argument here
   # the array below is here to help
 cheese_types = ["cheddar", "gouda", "camembert"]
-i=0
-cheddar_cheese.find do |x|
-  while cheese_types.length>i
-  x==cheese_types[i]
-  i+=1
-end
+index=0
+while index<cheese_types.length
+  cheddar_cheese.find(cheese_types[index])
+  index+=1
 end
 end
