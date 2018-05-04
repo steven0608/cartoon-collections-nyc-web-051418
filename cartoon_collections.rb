@@ -22,10 +22,10 @@ def find_the_cheese(cheddar_cheese)# code an argument here
 cheese_types = ["cheddar", "gouda", "camembert"]
 index=0
 while index<cheese_types.length
-check= cheddar_cheese.include?(cheese_types[index])
+check = cheddar_cheese.include?(cheese_types[index])
 if check == true
-  cheese_types[index]
+  return cheese_types[index]
 end
-index+=1
+index += 1
 end
 end
