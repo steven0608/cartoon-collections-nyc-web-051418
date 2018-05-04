@@ -5,8 +5,10 @@ dwarves.each_with_index do |x,index|
 end
 end
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(veggies)# code an argument here
+veggies.map do |x|
+  puts x.capitalize
+end
 end
 
 def long_planeteer_calls# code an argument here
