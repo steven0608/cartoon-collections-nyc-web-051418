@@ -11,8 +11,10 @@ veggies.collect do |x|
 end
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls_long)# code an argument here
+calls_long.any? do |x|
+  x.length >4
+end
 end
 
 def find_the_cheese# code an argument here
