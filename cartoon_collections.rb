@@ -25,3 +25,4 @@ while index<cheese_types.length
   cheese_types[index] index+=1 if cheddar_cheese.include?(cheese_types[index])
 end
 end
+end
