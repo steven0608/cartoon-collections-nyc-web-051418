@@ -17,7 +17,11 @@ calls_long.any? do |x|
 end
 end
 
-def find_the_cheese# code an argument here
+def find_the_cheese(cheddar_cheese)# code an argument here
   # the array below is here to help
+  
   cheese_types = ["cheddar", "gouda", "camembert"]
+  cheddar_cheese.find do |x|
+    x==cheese_types
+  end
 end
